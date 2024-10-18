@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Challenge</title>
+    <style>
+        * {
+            font-family: 'gilroy';
+        }
+    </style>
+
+</head>
+
+<body>
+    <div style="display: flex; gap: 20rem;">
+        <div>
+            <h1>This is HTML Challenge</h1>
+            <h2>HTML (HyperText Markup Language)</h2>
+            <p>It is the standard language used to create and design <u>web pages</u> on the internet.</p>
+
+            <div>
+                <p>1. HTML is an?</p>
+                <ol type="i">
+                    <li>Markup language</li>
+                    <li>Programming language</li>
+                    <li>None of these</li>
+                </ol>
+                <label>Ans:</label> ___________
+            </div>
+
+            <div>
+                <p>2. CSS is used for?</p>
+                <ol type="i">
+                    <li>Styling</li>
+                    <li>Scripting</li>
+                    <li>None of these</li>
+                </ol>
+                <label>Ans:</label> ___________
+            </div>&nbsp;
+
+            <table border="1" cellpadding="8" cellspacing="0" width="100%">
+
+                <thead>
+                    <tr align="center">
+                        <td colspan="6">Time Table</td>
+                    </tr>
+                    <tr>
+                        <th>Day/Period</th>
+                        <th>I</th>
+                        <th>II</th>
+                        <th></th>
+                        <th>III</th>
+                        <th>IV</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr align="center">
+                        <td>Monday</td>
+                        <td>Eng</td>
+                        <td>Math</td>
+                        <td rowspan="5">Lunch</td>
+                        <td>EVS</td>
+                        <td>LAB</td>
+                    </tr>
+                    <tr align="center">
+                        <td>Tuesday</td>
+                        <td>Eng</td>
+                        <td>Math</td>
+                        <td>EVS</td>
+                        <td>Hindi</td>
+                    </tr>
+                    <tr align="center">
+                        <td>Wednesday</td>
+                        <td colspan="2">LAB</td>
+                        <td>EVS</td>
+                        <td>Hindi</td>
+                    </tr>
+                    <tr align="center">
+                        <td>Thursday</td>
+                        <td>Eng</td>
+                        <td>Math</td>
+                        <td>EVS</td>
+                        <td>Hindi</td>
+                    </tr>
+                    <tr align="center">
+                        <td>Friday</td>
+                        <td colspan="2">SEMINAR</td>
+                        <td colspan="2">Sports</td>
+                    </tr>
+
+                    <tr align="center">
+                        <td colspan="6">School Timing: 10:00 AM to 4:00 PM</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- //2nd -->
+        <div>
+            <h2>Create Form Challenge:</h2>
+            <p>Please share your personal details here:</p>
+
+            <form style="width: 200px">
+
+                <fieldset>
+                    <legend><strong>Personal Information</strong></legend>
+
+                    <label for="first-name">First name:</label><br>
+                    <input type="text" id="first-name" name="first-name"><br><br>
+
+                    <label for="last-name">Last name:</label><br>
+                    <input type="text" id="last-name" name="last-name"><br><br>
+
+                    <label for="birthday">Birthday:</label><br>
+                    <input type="date" id="birthday" name="birthday"><br>
+                </fieldset>
+
+
+
+                <p>Can you tell us a little more?</p>
+
+                <fieldset>
+                    <legend><strong>Further Information</strong></legend>
+
+                    <label for="fav-color">Favourite Color:</label><br>
+                    <input type="text" id="fav-color" name="fav-color"><br><br>
+
+                    <label for="fav-pet">What's your favourite pet?</label><br>
+                    <input type="text" id="fav-pet" name="fav-pet"><br><br>
+
+                    <label>Do you like:</label> <br>
+                    <input type="radio" id="mountains" name="preference" value="mountains">
+                    <label for="mountains">Mountains</label>
+
+                    <input type="radio" id="beaches" name="preference" value="beaches">
+                    <label for="beaches">Beaches</label><br>
+                </fieldset>
+
+                <br>
+
+                <input type="submit">
+                <br>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
